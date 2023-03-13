@@ -1,6 +1,4 @@
-package org.example;
-
-import org.example.Opeartions.Factorial;
+import Opeartions.Factorial;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

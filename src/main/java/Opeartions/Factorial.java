@@ -1,4 +1,4 @@
-package org.example.Opeartions;
+package Opeartions;
 
 public class Factorial {
 
