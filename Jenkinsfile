@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Build Docker Images') {
             steps {
-                sh 'docker build -t iiitbgaurang/spe_project:latest'
+                sh 'docker build -t iiitbgaurang/spe_project:latest .'
             }
         }
 //         stage('Publish Docker Images') {
