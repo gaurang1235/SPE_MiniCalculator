@@ -24,13 +24,13 @@ pipeline {
         stage('Publish Docker Images') {
             steps {
 //                withDockerRegistry([ credentialsId: "iiitbgaurang", url: "" ]) {
-                    sh 'docker push iiitbgaurang/SPE_MiniCalculator:latest'
+                    sh 'docker push iiitbgaurang/spe_project:latest'
 //                }
             }
         }
 //         stage('Clean Docker Images') {
 //             steps {
-//                 sh 'docker rmi -f iiitbgaurang/SPE_MiniCalculator:latest'
+//                 sh 'docker rmi -f iiitbgaurang/spe_project:latest'
 //             }
 //         }
 //         stage('Deploy and Run Image'){
