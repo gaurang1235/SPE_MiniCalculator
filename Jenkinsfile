@@ -23,16 +23,14 @@ pipeline {
         }
         stage('Publish Docker Images') {
             steps {
-//                withDockerRegistry([ credentialsId: "iiitbgaurang", url: "" ]) {
-                    sh 'docker push iiitbgaurang/spe_project:latest'
-//                }
+                sh 'docker push iiitbgaurang/spe_project:latest'
             }
         }
-//         stage('Clean Docker Images') {
-//             steps {
-//                 sh 'docker rmi -f iiitbgaurang/spe_project:latest'
-//             }
-//         }
+        stage('Clean Docker Images') {
+            steps {
+                sh 'docker rmi -f iiitbgaurang/spe_project:latest'
+            }
+        }
 //         stage('Deploy and Run Image'){
 //             steps {
 //                 ansiblePlaybook becomeUser: null, colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'playbook.yml', sudoUser: null
