@@ -33,7 +33,7 @@ pipeline {
         }
         stage('Deploy and Run Image'){
             steps {
-                sh 'ansible-playbook project_playbook.yml'
+                sh 'ansible-playbook -i inventory project_playbook.yml'
             }
         }
 
