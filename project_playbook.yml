@@ -11,5 +11,5 @@
       shell: docker pull iiitbgaurang/spe_project
 
 
-    - name: running container
+    - name: creating container
       shell: docker create -it --name calculator iiitbgaurang/spe_project
