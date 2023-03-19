@@ -41,4 +41,34 @@ public class CalculatorTest
         assertNotEquals("Test for factorial with false positive", 0, calculator.factorial(1), DELTA);
         assertNotEquals("Test for factorial with false positive", 9, calculator.factorial(3), DELTA);
     }
+
+    @Test
+    public void logarithmTestTruePositive(){
+        assertEquals("Test for logarithm with true positive", 0, calculator.log(1), DELTA);
+        assertEquals("Test for logarithm with true positive", 1, calculator.log(Math.exp(1)), DELTA);
+    }
+
+    @Test
+    public void logarithmTestFalsePositive(){
+        assertNotEquals("Test for logarithm with false positive", 1, calculator.log(10), DELTA);
+        assertNotEquals("Test for logarithm with false positive", 0, calculator.log(Math.exp(1)), DELTA);
+        assertNotEquals("Test for logarithm with false positive", 1, calculator.log(1), DELTA);
+    }
+
+
+    @Test
+    public void powerTestTruePositive(){
+        assertEquals("Test for power fn with true positive", 125, calculator.power(5,3), DELTA);
+        assertEquals("Test for power fn with true positive", 1, calculator.power(0,0), DELTA);
+        assertEquals("Test for power fn with true positive", 1, calculator.power(1,5), DELTA);
+        assertEquals("Test for power fn with true positive", 9, calculator.power(3,2), DELTA);
+    }
+
+    @Test
+    public void powerTestFalsePositive(){
+        assertNotEquals("Test for power fn with false positive", 125, calculator.power(5,2), DELTA);
+        assertNotEquals("Test for power fn with false positive", 0, calculator.power(0,0), DELTA);
+        assertNotEquals("Test for power fn with false positive", 5, calculator.power(1,5), DELTA);
+        assertNotEquals("Test for power fn with false positive", 6, calculator.power(3,2), DELTA);
+    }
 }

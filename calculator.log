@@ -8,3 +8,55 @@
 2023-03-18 20:21:54.943 [main] INFO  Calculator - [RESULT - FACTORIAL] - 4.790016E8
 2023-03-18 20:28:34.034 [main] INFO  Calculator - [SQUARE ROOT] - 4.0
 2023-03-18 20:28:34.038 [main] INFO  Calculator - [RESULT - SQUARE ROOT] - 2.0
+2023-03-19 20:51:56.631 [main] INFO  Calculator - [SQUARE ROOT] - 9.0
+2023-03-19 20:51:56.635 [main] INFO  Calculator - [RESULT - SQUARE ROOT] - 3.0
+2023-03-19 20:52:17.144 [main] INFO  Calculator - [SQUARE ROOT] - 64.0
+2023-03-19 20:52:17.145 [main] INFO  Calculator - [RESULT - SQUARE ROOT] - 8.0
+2023-03-19 20:55:34.585 [main] INFO  Calculator - [SQUARE ROOT] - 9.0
+2023-03-19 20:55:34.587 [main] INFO  Calculator - [RESULT - SQUARE ROOT] - 3.0
+2023-03-19 20:55:34.587 [main] INFO  Calculator - [SQUARE ROOT] - 0.0
+2023-03-19 20:55:34.587 [main] INFO  Calculator - [RESULT - SQUARE ROOT] - 0.0
+2023-03-19 20:55:34.587 [main] INFO  Calculator - [SQUARE ROOT] - 1.0
+2023-03-19 20:55:34.587 [main] INFO  Calculator - [RESULT - SQUARE ROOT] - 1.0
+2023-03-19 20:55:34.587 [main] INFO  Calculator - [SQUARE ROOT] - 25.0
+2023-03-19 20:55:34.587 [main] INFO  Calculator - [RESULT - SQUARE ROOT] - 5.0
+2023-03-19 20:55:34.587 [main] INFO  Calculator - [FACTORIAL] - 5.0
+2023-03-19 20:55:34.587 [main] INFO  Calculator - [RESULT - FACTORIAL] - 120.0
+2023-03-19 20:55:34.588 [main] INFO  Calculator - [FACTORIAL] - 0.0
+2023-03-19 20:55:34.588 [main] INFO  Calculator - [RESULT - FACTORIAL] - 1.0
+2023-03-19 20:55:34.588 [main] INFO  Calculator - [FACTORIAL] - 1.0
+2023-03-19 20:55:34.588 [main] INFO  Calculator - [RESULT - FACTORIAL] - 1.0
+2023-03-19 20:55:34.588 [main] INFO  Calculator - [FACTORIAL] - 3.0
+2023-03-19 20:55:34.588 [main] INFO  Calculator - [RESULT - FACTORIAL] - 6.0
+2023-03-19 20:55:34.588 [main] INFO  Calculator - [SQUARE ROOT] - 9.0
+2023-03-19 20:55:34.588 [main] INFO  Calculator - [RESULT - SQUARE ROOT] - 3.0
+2023-03-19 20:55:34.588 [main] INFO  Calculator - [SQUARE ROOT] - 0.0
+2023-03-19 20:55:34.588 [main] INFO  Calculator - [RESULT - SQUARE ROOT] - 0.0
+2023-03-19 20:55:34.588 [main] INFO  Calculator - [SQUARE ROOT] - 1.0
+2023-03-19 20:55:34.588 [main] INFO  Calculator - [RESULT - SQUARE ROOT] - 1.0
+2023-03-19 20:55:34.588 [main] INFO  Calculator - [SQUARE ROOT] - 25.0
+2023-03-19 20:55:34.588 [main] INFO  Calculator - [RESULT - SQUARE ROOT] - 5.0
+2023-03-19 20:55:34.589 [main] INFO  Calculator - [FACTORIAL] - 5.0
+2023-03-19 20:55:34.589 [main] INFO  Calculator - [RESULT - FACTORIAL] - 120.0
+2023-03-19 20:55:34.589 [main] INFO  Calculator - [FACTORIAL] - 3.0
+2023-03-19 20:55:34.589 [main] INFO  Calculator - [RESULT - FACTORIAL] - 6.0
+2023-03-19 20:55:34.589 [main] INFO  Calculator - [FACTORIAL] - 0.0
+2023-03-19 20:55:34.589 [main] INFO  Calculator - [RESULT - FACTORIAL] - 1.0
+2023-03-19 20:55:34.589 [main] INFO  Calculator - [FACTORIAL] - 1.0
+2023-03-19 20:55:34.589 [main] INFO  Calculator - [RESULT - FACTORIAL] - 1.0
+2023-03-19 21:13:02.421 [main] INFO  Calculator - [SQUARE ROOT] - 3.0
+2023-03-19 21:13:02.422 [main] INFO  Calculator - [RESULT - SQUARE ROOT] - 1.7320508075688772
+2023-03-19 21:13:05.522 [main] INFO  Calculator - [SQUARE ROOT] - 9.0
+2023-03-19 21:13:05.523 [main] INFO  Calculator - [RESULT - SQUARE ROOT] - 3.0
+2023-03-19 21:13:08.724 [main] INFO  Calculator - [FACTORIAL] - 5.0
+2023-03-19 21:13:08.724 [main] INFO  Calculator - [RESULT - FACTORIAL] - 120.0
+2023-03-19 21:13:14.099 [main] INFO  Calculator - [NATURAL LOG] - 1024.0
+2023-03-19 21:13:14.101 [main] INFO  Calculator - [RESULT - NATURAL LOG] - 6.931471805599453
+2023-03-19 21:13:18.342 [main] INFO  Calculator - [NATURAL LOG] - 10.0
+2023-03-19 21:13:18.342 [main] INFO  Calculator - [RESULT - NATURAL LOG] - 2.302585092994046
+2023-03-19 21:13:22.373 [main] INFO  Calculator - [NATURAL LOG] - 1000.0
+2023-03-19 21:13:22.374 [main] INFO  Calculator - [RESULT - NATURAL LOG] - 6.907755278982137
+2023-03-19 21:13:36.407 [main] INFO  Calculator - [Power of - 2.0 raise to 10.0]
+2023-03-19 21:13:36.408 [main] INFO  Calculator - [RESULT - POWER Function] - 1024.0
+2023-03-19 21:18:35.730 [main] INFO  Calculator - [SQUARE ROOT] - 25.0
+2023-03-19 21:18:35.732 [main] INFO  Calculator - [RESULT - SQUARE ROOT] - 5.0

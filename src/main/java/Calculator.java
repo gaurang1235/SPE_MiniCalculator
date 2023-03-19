@@ -1,4 +1,6 @@
 import Opeartions.Factorial;
+import Opeartions.Logarithm;
+import Opeartions.Power;
 import Opeartions.SquareRoot;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -26,7 +28,7 @@ public class Calculator
 
         Scanner scanner = new Scanner(System.in);
         do {
-            System.out.println("Scientific Calculator\n\n Select operation:");
+            System.out.println("----------------Scientific Calculator-----------------\n\nSelect operation:");
             System.out.print("1. Square root\n2. Factorial\n3. Natural Logarithm\n4. Power\n5. Exit\nEnter your choice: ");
 
             try {
@@ -38,7 +40,7 @@ public class Calculator
             switch (choice) {
                 case 1:
                     //Square root
-                    System.out.print("Enter a number : ");
+                    System.out.print("Enter the number for Square Root : ");
                     number = scanner.nextDouble();
                     System.out.println("Square Root of "+number+" is : " + calci.squareRoot(number));
                     System.out.println("\n");
@@ -46,13 +48,30 @@ public class Calculator
                     break;
                 case 2:
                     // Factorial
-                    System.out.print("Enter a number : ");
+                    System.out.print("Enter the number for Factorial : ");
                     number = scanner.nextDouble();
                     System.out.println("Factorial of "+number+" is : " + calci.factorial(number));
                     System.out.println("\n");
 
                     break;
+                case 3:
+                    //Natural Logarithm
+                    System.out.print("Enter the number for Natural Log : ");
+                    number = scanner.nextDouble();
+                    System.out.println("Natural Log of "+number+" is : " + calci.log(number));
+                    System.out.println("\n");
 
+                    break;
+                case 4:
+                    //Power
+                    System.out.print("Enter the Base Number : ");
+                    number = scanner.nextDouble();
+                    System.out.print("Enter the Exponent Number : ");
+                    number2 = scanner.nextDouble();
+                    System.out.println("Power of "+number+" raise to "+number2+" is : " + calci.power(number, number2));
+                    System.out.println("\n");
+
+                    break;
                 case 5:
                     System.out.println("Quitting....\n\n");
 
@@ -80,4 +99,21 @@ public class Calculator
         logger.info("[RESULT - FACTORIAL] - " + result);
         return result;
     }
+
+    public double log(double num) {
+        logger.info("[NATURAL LOG] - " + num);
+        Logarithm logarithm = new Logarithm();
+        double result = logarithm.log(num);
+        logger.info("[RESULT - NATURAL LOG] - " + result);
+        return result;
+    }
+
+    public double power(double num1, double num2) {
+        logger.info("[Power of - " + num1 + " raise to " + num2 + "]");
+        Power pow = new Power();
+        double result = pow.power(num1, num2);
+        logger.info("[RESULT - POWER Function] - " + result);
+        return result;
+    }
+
 }
