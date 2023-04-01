@@ -41,7 +41,7 @@
 2023-03-19 20:55:34.589 [main] INFO  Calculator - [FACTORIAL] - 3.0
 2023-03-19 20:55:34.589 [main] INFO  Calculator - [RESULT - FACTORIAL] - 6.0
 2023-03-19 20:55:34.589 [main] INFO  Calculator - [FACTORIAL] - 0.0
-2023-03-19 20:55:34.589 [main] INFO  Calculator - [RESULT - FACTORIAL] - 1.0
+2023-03-19 20:55:34.589 [main] INFO  Calculator - [RESULT - FACTORIAL] - 1.00
 2023-03-19 20:55:34.589 [main] INFO  Calculator - [FACTORIAL] - 1.0
 2023-03-19 20:55:34.589 [main] INFO  Calculator - [RESULT - FACTORIAL] - 1.0
 2023-03-19 21:13:02.421 [main] INFO  Calculator - [SQUARE ROOT] - 3.0
